@@ -10,9 +10,9 @@ import loipn.abstractfactorypatterndemo.model.Shape
  * @since February 21, 2020
  * @version 1.0
  */
-abstract class AbstractFactory {
+interface AbstractFactory {
 
-    abstract fun getShape(shape: String): Shape?
+    fun getShape(shape: String): Shape?
 
-    abstract fun getColor(color: String): Color?
+    fun getColor(color: String): Color?
 }

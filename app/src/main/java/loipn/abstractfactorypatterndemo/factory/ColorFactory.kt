@@ -12,7 +12,7 @@ import loipn.abstractfactorypatterndemo.model.Shape
  * @since February 21, 2020
  * @version 1.0
  */
-class ColorFactory: AbstractFactory() {
+class ColorFactory: AbstractFactory {
 
     override fun getShape(shape: String): Shape? {
         return null

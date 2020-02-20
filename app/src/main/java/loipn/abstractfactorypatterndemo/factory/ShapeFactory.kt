@@ -9,7 +9,7 @@ import loipn.abstractfactorypatterndemo.model.*
  * @since February 21, 2020
  * @version 1.0
  */
-class ShapeFactory: AbstractFactory() {
+class ShapeFactory: AbstractFactory {
 
     override fun getShape(shape: String): Shape? {
         return when (shape) {
